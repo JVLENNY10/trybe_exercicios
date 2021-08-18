@@ -1,8 +1,7 @@
-Bash
-css
-html
-Internet
-java
-php
-python
-Unix
+Olá, Mundo!
+Welcome To The Jungle
+Rebirth
+Nova Era
+Carry On
+Canada
+Brasil

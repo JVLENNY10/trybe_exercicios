@@ -1,8 +1,8 @@
 Internet
 Unix
 Bash
-html
-java
-css
-python
-php
+HTML
+Java
+CSS
+Python
+PHP

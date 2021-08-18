@@ -3,6 +3,9 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
+ trybe-skills-updates
+- React
+=======
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
@@ -50,3 +53,4 @@ to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 - HTML
 - CSS
+ main

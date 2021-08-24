@@ -1,0 +1,42 @@
+ol {
+    background-color: yellow;
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+.par {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+h1.italic {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li.italic {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.programacao {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+.aliados:hover {
+    color: red;
+    font-weight: bold;
+}

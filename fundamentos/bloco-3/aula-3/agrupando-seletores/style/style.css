@@ -1,0 +1,11 @@
+.container-list h1, p {
+    text-align: center;
+}
+
+.container-list li:hover {
+    background-color: aqua;
+}
+
+.container-list li:active {
+    font-style: italic;
+}

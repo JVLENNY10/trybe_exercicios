@@ -1,42 +1,42 @@
 ol {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .impar {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .par {
-    color: green;
+  color: green;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 h1.italic {
-    font-size: 40px;
-    border: 1px solid black;
+  font-size: 40px;
+  border: 1px solid black;
 }
 
 li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 li.italic {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .programacao {
-    color: blue;
+  color: blue;
 }
 
 .java {
-    background-color: pink;
+  background-color: pink;
 }
 
 .aliados:hover {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }

@@ -4,59 +4,59 @@
 
 // 1) Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 
-const a = 5;
-const b = 5;
+const a = 5
+const b = 5
 
 // ◉ Adição (a + b)
-console.log(adicao = a + b);
+console.log(adicao = a + b)
 
 // ◉ Subtração (a - b)
-console.log(subtracao = a - b);
+console.log(subtracao = a - b)
 
 // ◉ Multiplicação (a * b)
-console.log(multiplicacao = a * b);
+console.log(multiplicacao = a * b)
 
 // ◉ Divisão (a / b)
-console.log(divisao = a / b);
+console.log(divisao = a / b)
 
 // ◉ Módulo (a % b)
-console.log(mod = a % b);
+console.log(mod = a % b)
 
 // 2) Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
 
-const number1 = 10;
-const number2 = 50;
+const number1 = 10
+const number2 = 50
 
 if (number1 > number2) {
-  console.log(number1);
+  console.log(number1)
 } else {
-  console.log(number2);
+  console.log(number2)
 }
 
 // 3) Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
 
-const number1 = 10;
-const number2 = 50;
-const number3 = 100;
+const number1 = 10
+const number2 = 50
+const number3 = 100
 
 if (number1 > number2 && number1 > number3) {
-  console.log(number1);
+  console.log(number1)
 } else if (number2 > number1 && number2 > number3) {
-  console.log(number2);
+  console.log(number2)
 } else {
-  console.log(number3);
+  console.log(number3)
 }
 
 // 4) Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
 
-const number = 10;
+const number = 10
 
 if (number > 0) {
-  console.log("positive");
+  console.log("positive")
 } else if (number < 0) {
-  console.log("negative");
+  console.log("negative")
 } else {
-  console.log("zero");
+  console.log("zero")
 }
 
 // 5) Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
@@ -65,16 +65,16 @@ if (number > 0) {
 
 // ◉ Um ângulo será considerado inválido se não tiver um valor positivo.
 
-const v1 = 50;
-const v2 = 50;
-const v3 = 80;
+const v1 = 50
+const v2 = 50
+const v3 = 80
 
 if (v1 < 0 || v2 < 0 || v3 < 0) {
-  console.log("Erro! Valor inválido!");
+  console.log("Erro! Valor inválido!")
 } else if (v1 + v2 + v3 === 180) {
-  console.log(true);
+  console.log(true)
 } else {
-  console.log(false);
+  console.log(false)
 }
 
 // 6) Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
@@ -87,26 +87,26 @@ if (v1 < 0 || v2 < 0 || v3 < 0) {
 
 // Exemplo: bishop (bispo) -> diagonals (diagonais)
 
-let pieces = ["king", "queen", "bishop", "horse", "tower", "pawn"];
+let pieces = ["king", "queen", "bishop", "horse", "tower", "pawn"]
 
-let piece = "king".toLowerCase();
+let piece = "king".toLowerCase()
 
 if (pieces.includes(piece)) {
   if (piece === "king") {
-    console.log("Todas as direções(vertical, horizontal e diagonal), porém apenas uma casa por vez.");
+    console.log("Todas as direções(vertical, horizontal e diagonal), porém apenas uma casa por vez.")
   } else if (piece === "queen") {
-    console.log("Todas as direções(vertical, horizontal e diagonal), porém quantas casas quiser, desde que estejam livres.");
+    console.log("Todas as direções(vertical, horizontal e diagonal), porém quantas casas quiser, desde que estejam livres.")
   } else if (piece === "bishop") {
-    console.log("Move-se na diagonal, quantas casas quiser.");
+    console.log("Move-se na diagonal, quantas casas quiser.")
   } else if (piece === "horse") {
-    console.log("Move-se por “um-dois” ou “em L”. Ele pode andar duas casas na horizontal e uma na vertical, ou duas na vertical e uma na horizontal, uma na horizontal e duas na vertical, e assim por diante.");
+    console.log("Move-se por “um-dois” ou “em L”. Ele pode andar duas casas na horizontal e uma na vertical, ou duas na vertical e uma na horizontal, uma na horizontal e duas na vertical, e assim por diante.")
   } else if (piece === "tower") {
-    console.log("Move-se em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.");
+    console.log("Move-se em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.")
   } else if (pice === "pawn") {
-    console.log("Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas. O peão é a única peça que não pode retroceder. O peão pode capturar as peças que estejam uma fileira acima, mas nas colunas adjacentes a sua.");
+    console.log("Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas. O peão é a única peça que não pode retroceder. O peão pode capturar as peças que estejam uma fileira acima, mas nas colunas adjacentes a sua.")
   }
 } else {
-  console.log("Erro! Peça inválida.");
+  console.log("Erro! Peça inválida.")
 }
 
 // 7) Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
@@ -125,48 +125,48 @@ if (pieces.includes(piece)) {
 
 // ◉ O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-let note = 100;
+let note = 100
 
 if (note >= 90) {
-  console.log("A");
+  console.log("A")
 } else if (note >= 80) {
-  console.log("B");
+  console.log("B")
 } else if (note >= 70) {
-  console.log("C");
+  console.log("C")
 } else if (note >= 60) {
-  console.log("D");
+  console.log("D")
 } else if (note >= 50) {
-  console.log("E");
+  console.log("E")
 } else {
-  console.log("F");
+  console.log("F")
 }
 
 // 8) Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
 
 // ◉ Bonus: use somente um if.
 
-const number1 = 10;
-const number2 = 25;
-const number3 = 35;
+const number1 = 10
+const number2 = 25
+const number3 = 35
 
 if (number1 % 2 === 0 || number2 % 2 === 0 || number3 % 2 === 0) {
-  console.log(true);
+  console.log(true)
 } else {
-  console.log(false);
+  console.log(false)
 }
 
 // 9) Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
 
 // ◉ Bonus: use somente um if.
 
-const number1 = 15;
-const number2 = 20;
-const number3 = 30;
+const number1 = 15
+const number2 = 20
+const number3 = 30
 
 if (number1 % 2 === 1 || number2 % 2 === 1 || number3 % 2 === 1) {
-  console.log(true);
+  console.log(true)
 } else {
-  console.log(false);
+  console.log(false)
 }
 
 // 10) Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
@@ -183,12 +183,12 @@ if (number1 % 2 === 1 || number2 % 2 === 1 || number3 % 2 === 1) {
 
 //const custoTotal = 200.00 + ((20 * 100.00) / 100)
 
-const venda = 500.00;
+const venda = 500.00
 
 if (custoTotal < 0 || venda < 0) {
-  console.log("Valor inválido. Programa encerrado.");
+  console.log("Valor inválido. Programa encerrado.")
 } else {
-  console.log("O lucro foi de R$" + (venda - custoTotal).toFixed(2));
+  console.log("O lucro foi de R$" + (venda - custoTotal).toFixed(2))
 }
 
 // 11) Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
@@ -239,37 +239,37 @@ if (custoTotal < 0 || venda < 0) {
 
 // Dica: que tal identificar as alíquotas com variáveis de nomes explicativos?
 
-let salarioBruto = 3000.00;
-let salarioFinal;
+let salarioBruto = 3000.00
+let salarioFinal
 
 if (salarioBruto <= 1556.94) {
-  const aliquotaInss1 = (8.0 * salarioBruto) / 100;
-  salarioFinal = salarioBruto - aliquotaInss1;
+  const aliquotaInss1 = (8.0 * salarioBruto) / 100
+  salarioFinal = salarioBruto - aliquotaInss1
 } else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
-  const aliquotaInss2 = (9.0 * salarioBruto) / 100;
-  salarioFinal = salarioFinal - aliquotaInss2;
+  const aliquotaInss2 = (9.0 * salarioBruto) / 100
+  salarioFinal = salarioFinal - aliquotaInss2
 } else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
-  const aliquotaInss3 = (11.0 * salarioBruto) / 100;
-  salarioFinal = salarioBruto - aliquotaInss3;
+  const aliquotaInss3 = (11.0 * salarioBruto) / 100
+  salarioFinal = salarioBruto - aliquotaInss3
 } else {
-  const aliquotaInss4 = 570.88;
-  salarioFinal = salarioBruto - aliquotaInss4;
+  const aliquotaInss4 = 570.88
+  salarioFinal = salarioBruto - aliquotaInss4
 }
 
 if (salarioFinal >= 1903.99 && salarioFinal <= 2826.65) {
-  const aliquotaIr2 = 7.5 * salarioFinal / 100 - 142.80;
-  salarioFinal = salarioFinal - aliquotaIr2;
+  const aliquotaIr2 = 7.5 * salarioFinal / 100 - 142.80
+  salarioFinal = salarioFinal - aliquotaIr2
 } else if (salarioFinal >= 2826.66 && salarioFinal <= 3751.05) {
-  const aliquotaIr3 = 15.0 * salarioFinal / 100 - 354.80;
-  salarioFinal = salarioFinal - aliquotaIr3;
+  const aliquotaIr3 = 15.0 * salarioFinal / 100 - 354.80
+  salarioFinal = salarioFinal - aliquotaIr3
 } else if (salarioFinal >= 3751.06 && salarioFinal <= 4664.68) {
-  const aliquotaIr4 = 22.5 * salarioFinal / 100 - 636.13;
-  salarioFinal = salarioFinal - aliquotaIr4;
+  const aliquotaIr4 = 22.5 * salarioFinal / 100 - 636.13
+  salarioFinal = salarioFinal - aliquotaIr4
 } else {
-  const aliquotaIr5 = 27.5 * salarioFinal / 100 - 869.36;
-  salarioFinal = salarioFinal - aliquotaIr5;
+  const aliquotaIr5 = 27.5 * salarioFinal / 100 - 869.36
+  salarioFinal = salarioFinal - aliquotaIr5
 }
 
-console.log("Seu salário final é: R$" + salarioFinal.toFixed(2));
+console.log("Seu salário final é: R$" + salarioFinal.toFixed(2))
 
 //-----------------------------------------------------------------------------------------------------------------------------------------//

@@ -1,0 +1,28 @@
+div:hover {
+  border: 5px solid black;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.primaria {
+  background-color: blue;
+}
+
+.secundaria {
+  background-color: blueviolet;
+}
+
+.complementar {
+  height: 100px;
+  background-color: dodgerblue;
+}
+
+.escura {
+  background-color: darkred;
+}
+
+.clara {
+  background-color: lime;
+}

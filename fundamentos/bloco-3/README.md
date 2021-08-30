@@ -36,3 +36,20 @@ Para trabalhar com desenvolvimento web, não é estritamente necessário aprende
 O HTML e o CSS são duas das pedras fundamentais no desenvolvimento web. São duas linguagens muito poderosas, que te permitem criar páginas web do zero e são utilizadas como base para inúmeras outras tecnologias de desenvolvimento web, como vamos aprender ao longo do curso.
 
 Você pode pensar no HTML como se fosse o esqueleto da sua página. É através do HTML que você irá criar a estrutura de como a página vai ser exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos como links , imagens, vídeos etc.
+
+## Aula 02: HTML & CSS - Primeiros passos em CSS
+
+### O que vamos aprender?
+
+Na segunda parte da sua jornada através do HTML & CSS , você vai aprender na prática como utilizar CSS para deixar suas páginas no estilo 😎
+
+### Você será capaz de:
+
+- Criar regras de estilo para tags HTML utilizando o CSS;
+- Utilizar os seletores de tag , id e class para aplicar regras de CSS;
+- Alterar características da fonte e das cores de páginas web;
+- Utilizar CSS inline e externo .
+
+### Por que isso é importante?
+
+Praticamente todas as páginas da internet utilizam algum estilo criado com CSS, seja ele personalizado ou através de algum framework . Por isso, é muito importante entender como o CSS funciona. 😉

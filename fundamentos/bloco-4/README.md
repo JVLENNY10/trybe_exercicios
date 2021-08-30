@@ -23,6 +23,8 @@ JavaScript - Objetos e funções
 - Agora vamos ao projeto Playground Functions (Lições Aprendidas) :
 Playground functions
 
+#### Vamos começar!
+
 ## Aula 01: JavaScript - Primeiros passos
 
 ### O que vamos aprender?

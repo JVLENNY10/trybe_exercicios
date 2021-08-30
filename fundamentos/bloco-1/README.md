@@ -1,37 +1,62 @@
-# O que vamos aprender?
+# Bloco 01: Unix & Bash
 
-Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar sua carreira no mundo do desenvolvimento Web, virando uma pessoa preparada para os módulos de Front-end e Back-end. Vamos te guiar, etapa a etapa, por toda essa jornada!
+## Introdução - Unix & Shell
 
-## Dividimos a introdução em quatro partes:
+### O que vamos aprender?
 
-- Pra começar, você vai estudar um pouco sobre um famoso tipo de sistema operacional chamado UNIX . Vamos colocar a mão na massa e executar alguns comandos no terminal.
+Você vai aprender sobre como o Unix funciona, assim como a forma de interação via linha de comando:
 
-- Depois de entender como os comandos funcionam e de já ter criado seus primeiros scripts, você vai aprender a usar o Git para guardá-los de forma segura. Além disso, você também entenderá o que é a Internet e como ela funciona.
+- Unix & Bash - Parte 1
+- Unix & Bash - Parte 2
 
-- Então, começaremos a parte mais divertida: o desenvolvimento web. Aqui você vai aprender a estruturar documentos HTML , estilizá-los com o CSS e criar comportamentos customizados com o JavaScript !
+## Aula 01: Unix & Bash - Parte 1
 
-- Após esse primeiro ciclo de aprendizado, você aprenderá sobre como criar sites responsivos e com CSS elegante e eficiente.
+### O que vamos aprender?
 
-- Aprenderá também a como utilizar o JavaScript em sua plenitude, utilizando recursos avançados como HOF , Código assíncrono , Testes unitários entre outras coisas incríveis!
+O Unix é um sistema operacional popular que foi lançado em 1969 e ganhou muitas das variações que se tornaram os principais sistemas operacionais do mercado. Vamos aprender como funciona o Unix e como interagir com ele através do terminal, utilizando o Bash.
+
+Os principais pontos abordados serão:
+
+- Quais são seus principais componentes?
+- Quais são suas variações?
+- Arquivos e processos, o que são?
+- Qual sua estrutura de diretórios?
+- O que é o terminal?
+- Comandos executados no Shell.
 
 ## Você será capaz de:
 
-- Utilizar o bash.
+- Executar comandos no terminal para navegar entre diretórios;
+- Executar comandos no terminal para criar e manipular arquivos e diretórios;
+- Executar comandos no terminal para realizar buscas;
 
-- Entender como a internet funciona, seus principais conceitos e terminologias.
+## Por que isso é importante?
 
-- Utilizar de forma confortável o Git e o Github.
+No desenvolvimento de software, é muito importante que você entenda como interagir de forma eficiente com o sistema operacional no qual você vai programar. Isso te poupará tempo e permitirá ser uma pessoa mais produtiva. Para isso, é primordial que você saiba os principais comandos que podem ser utilizados no terminal.
 
-- Criar documentos HTML estilizados com CSS.
+Na maioria das vezes, principalmente por questões de custo, performance e facilidade de interação através do terminal, sistemas operacionais baseados em Unix são indicados como a melhor opção para você hospedar seus projetos Web.
 
-- Utilizar o JavaScript para adicionar comportamento às páginas web.
+## Aula 02: Unix & Bash - Parte 2
 
-- Utilizar recursos de HTML e CSS Avançado.
+### O que vamos aprender?
 
-- Trabalhar com JavaScript ES6.
+Vamos continuar explorando os comandos do UNIX.
 
-- Criar códigos assíncronos em JavaScript.
+Se você já tem familiaridade com o ambiente UNIX, o terminal e tudo mais, que tal ajudar outras pessoas a tirar as dúvidas? Abra uma videochamada, se disponibilize no Slack e vamos colaborar! 💁🏽‍♂
 
-- Escrever testes unitários.
+Agora, se você ainda não está confiante nas suas habilidades jedi com a tela preta, vamos praticar com vários exercícios para que você possa ver na prática como os comandos do UNIX podem ser úteis!
 
-### Vamos começar!
+### Você será capaz de:
+
+- Utilizar o comando find ;
+- Utilizar os operadores > (maior), >> (maior maior) e | (pipe) no terminal;
+- Alterar as permissões de arquivos e diretórios;
+- Verificar o status e enviar sinais a processos UNIX;
+
+### Por que isso é importante?
+
+Conhecer variáveis de ambiente e saber como usá-las no seu código é uma das principais habilidades que você irá usar para trazer flexibilidade e segurança em seu código. Imagine que você precisa fazer um script que se conecte com uma máquina remota, e precise de usuário e senha. Você colocaria a senha direto no script ? 🤔
+
+Quando se trabalha usando o terminal, cada comando que você digita é executado dentro de um processo. Então é importante saber como você pode se comunicar com tais processos quando, por exemplo, quiser terminar a execução de algum que está travado. 🔫
+
+Conhecer sobre permissões é uma outra habilidade importante para garantir que os arquivos que você manipula na máquina (códigos, configurações, etc) não sejam alterados ou executados por pessoas indesejadas. 🔐

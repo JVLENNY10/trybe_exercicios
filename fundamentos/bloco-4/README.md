@@ -65,7 +65,7 @@ JavaScript é versátil . O uso do JavaScript na Web é bem óbvio - é onde ele
 - Acesso e manipulação de bancos de dados através de diversos drivers ;
 - Aplicativos mobile nativos, com o React Native, por exemplo;
 - Aplicativos desktop, com o Electron, por exemplo;
-- 
+  
 Todos esses usos já foram e são feitos por empresas de todos os portes. Aprender JavaScript é a porta para um mundo infinito de possibilidades. 🚀
 
 JavaScript é a base para o curso da Trybe . Por último, mas não menos importante, o JavaScript é o fundamento principal para a maior parte do curso da Trybe, tanto agora, no módulo de Fundamentos, quanto no módulo de Front-End e no de Back-End. É de vital importância ter uma boa base de JavaScript para entender React , Redux , Jest , Node e todas essas outras ferramentas que você vai adicionar à sua caixa.

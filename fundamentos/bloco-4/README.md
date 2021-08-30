@@ -54,7 +54,6 @@ Hoje, vamos aprender:
 ### Por que isso é importante?
 
 Existem inúmeros motivos que atestam pela importância imensa desse passo, mas vamos falar sobre três:
-
 JavaScript é popular . O JavaScript vem sendo, nos últimos 8 anos, a linguagem de programação mais popular do mundo, segundo a última pesquisa do Stack Overflow .
 
 Ele é responsável pela grande maioria das interações em tempo real na web que é possível nos dias de hoje. Sabe quando você está em uma página com um chat, e as mensagens chegam "sozinhas"? Isso é JavaScript . Ou quando você acessa um perfil diferente no Facebook, mas seu navegador não carrega a página do zero, somente carregando o que de fato mudou? Também é JavaScript (com o React 🙂).
@@ -65,7 +64,7 @@ JavaScript é versátil . O uso do JavaScript na Web é bem óbvio - é onde ele
 - Acesso e manipulação de bancos de dados através de diversos drivers ;
 - Aplicativos mobile nativos, com o React Native, por exemplo;
 - Aplicativos desktop, com o Electron, por exemplo;
-- 
+
 Todos esses usos já foram e são feitos por empresas de todos os portes. Aprender JavaScript é a porta para um mundo infinito de possibilidades. 🚀
 
 JavaScript é a base para o curso da Trybe . Por último, mas não menos importante, o JavaScript é o fundamento principal para a maior parte do curso da Trybe, tanto agora, no módulo de Fundamentos, quanto no módulo de Front-End e no de Back-End. É de vital importância ter uma boa base de JavaScript para entender React , Redux , Jest , Node e todas essas outras ferramentas que você vai adicionar à sua caixa.

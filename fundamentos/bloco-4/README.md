@@ -56,6 +56,7 @@ Hoje, vamos aprender:
 ### Por que isso é importante?
 
 Existem inúmeros motivos que atestam pela importância imensa desse passo, mas vamos falar sobre três:
+
 JavaScript é popular . O JavaScript vem sendo, nos últimos 8 anos, a linguagem de programação mais popular do mundo, segundo a última pesquisa do Stack Overflow .
 
 Ele é responsável pela grande maioria das interações em tempo real na web que é possível nos dias de hoje. Sabe quando você está em uma página com um chat, e as mensagens chegam "sozinhas"? Isso é JavaScript . Ou quando você acessa um perfil diferente no Facebook, mas seu navegador não carrega a página do zero, somente carregando o que de fato mudou? Também é JavaScript (com o React 🙂).
@@ -74,3 +75,22 @@ JavaScript é a base para o curso da Trybe . Por último, mas não menos importa
 Por fim, saiba que é muito importante aprender JavaScript e ter foco . Mas não se preocupe, esse é só o primeiro passo no mundo da programação.
 
 Tenha em mente que JavaScript é uma linguagem de programação e, como tal, é apenas uma ferramenta . O verdadeiro trabalho e o verdadeiro objetivo é resolver problemas . O mais importante é que você aprenda a programar e a aprender - JavaScript é só a ferramenta principal que vai te ajudar a alcançar esse objetivo.
+
+## Aula 02: JavaScript - Array e loop For
+
+### O que vamos aprender?
+
+Nesta segunda parte sobre JavaScript , você aprenderá duas das principais estruturas de dados disponíveis na linguagem e algumas das formas de iterar sobre elas.
+
+Vamos avançar nossos conhecimentos e entender mais sobre Array e For .
+
+### Você será capaz de:
+
+- Manipular arrays (listas);
+- Utilizar o comando for ;
+
+### Por que isso é importante?
+
+A manipulação de Arrays estará presente em toda sua carreira como pessoa desenvolvedora. Você irá usar arrays frequentemente para armazenar os dados que achar necessário.
+
+Concentre-se em entender ao máximo o conceito de Array e como manipulá-los, pois essa base será importante para avançar seu conhecimento.

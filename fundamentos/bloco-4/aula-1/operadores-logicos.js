@@ -6,11 +6,11 @@
 
 // 1) Crie uma constante chamada "currentHour" que recebe um número entre 4 e 24 de sua escolha, para representar as horas do dia.
 
-const currentHour = 20
+const currentHour = 20;
 
 // 2) Crie uma variável chamada "message" que, inicialmente, é uma string vazia.
 
-let message = ""
+let message = "";
 
 // 3) Implemente condicionais para que:
 
@@ -25,26 +25,26 @@ let message = ""
 // ◉ Se o horário estiver entre 4 e 11, insira "Hmmm, cheiro de café recém passado" na variável "message".
 
 if (currentHour >= 22) {
-  message = "Não deveríamos comer nada, é hora de dormir"
+  message = "Não deveríamos comer nada, é hora de dormir";
 } else if (currentHour >= 18 && currentHour < 22) {
-  message = "Rango da noite, vamos jantar :D"
+  message = "Rango da noite, vamos jantar :D";
 } else if (currentHour >= 14 && currentHour < 18) {
-  message = "Vamos fazer um bolo pro café da tarde?"
+  message = "Vamos fazer um bolo pro café da tarde?";
 } else if (currentHour > 11 && currentHour < 14) {
-  message = "Hora do almoço!!!"
+  message = "Hora do almoço!!!";
 } else if (currentHour > 4 && currentHour < 11) {
-  message = "Hmmm, cheiro de café recém passado"
+  message = "Hmmm, cheiro de café recém passado";
 }
 
 // 4) Agora imprima a variável message fora das suas condições.
 
-console.log(message)
+console.log(message);
 
 // Operador OR.
 
 // 1) Crie uma variável chamada "weekDay" que recebe a string "quarta-feira".
 
-let weekDay = "quarta-feira"
+let weekDay = "quarta-feira";
 
 // 2) Implemente condicionais para que:
 
@@ -53,9 +53,9 @@ let weekDay = "quarta-feira"
 // ◉ Se for algum dia de fim de semana, imprima "FINALMENTE, descando merecido UwU".
 
 if (weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
-  console.log("Oba, mais um dia de aprendizado na Trybe >:D")
+  console.log("Oba, mais um dia de aprendizado na Trybe >:D");
 } else {
-  console.log("FINALMENTE, descando merecido UwU")
+  console.log("FINALMENTE, descando merecido UwU");
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------------------//

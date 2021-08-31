@@ -1,6 +1,8 @@
 //-----------------------------------------------------------------------------------------------------------------------------------------//
 
-// Exercícios
+// Funções
+
+// Pegue cada um dos exercícios da primeira parte das nossas aulas de JavaScript e faça com que todos eles sejam funções de um mesmo arquivo. As variáveis que você define no começo de cada arquivo devem ser removidas e transformadas em parâmetros das funções.
 
 // 1) Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 
@@ -22,6 +24,14 @@ console.log(divisao = a / b);
 // ◉ Módulo (a % b)
 console.log(mod = a % b);
 
+// Função
+
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(sum(5, 5));
+
 // 2) Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
 
 const number1 = 10;
@@ -32,6 +42,8 @@ if (number1 > number2) {
 } else {
   console.log(number2);
 }
+
+// Função
 
 // 3) Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
 

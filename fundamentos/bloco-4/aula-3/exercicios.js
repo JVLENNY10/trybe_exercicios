@@ -13,7 +13,7 @@
 // *****
 
 let n = 5;
-let sasterisk = "*";
+let asterisk = "*";
 
 for (let i = 1; i <= n; i += 1) {
   console.log(asterisk.repeat(n));
@@ -54,9 +54,9 @@ let asterisk = "*";
 
 for (let i = 1; i <= n; i += 1) {
   if (asterisk.length < n) {
-    console.log(space.repeat(n - i) + asterisk.repeat(i))
+    console.log(space.repeat(n - i) + asterisk.repeat(i));
   } else {
-    console.log(asterisk.repeat(i))
+    console.log(asterisk.repeat(i));
   }
 }
 
@@ -72,14 +72,15 @@ let n = 5;
 let space = " ";
 let asterisk = "*";
 
-for (let i = 1; i <= n; i += 1) {
-  if (asterisk.length < n) {
-    if (i === 1) {
-      console.log(space.repeat(n - 3) + asterisk.repeat(i))
-    } else if (i === 3) {
-      console.log(space.repeat(n - 4) + asterisk.repeat(i))
-    } else if (i === 5) {
-      console.log(asterisk.repeat(i))
+if (n % 2 === 1) {
+  for (let i = 1; i <= n; i += 1) {
+    if (i % 2 === 1) {
+      let jumpLine = (n - i) / 2;
+      if (asterisk.length < n) {
+        console.log(space.repeat(jumpLine) + asterisk.repeat(i));
+      } else {
+        console.log(asterisk.repeat(i));
+      }
     }
   }
 }
@@ -88,17 +89,57 @@ for (let i = 1; i <= n; i += 1) {
 
 // Bonus 
 
-// 5- Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar:
-// Copiar
+// 1) Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar:
+
 // Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
+
 // n = 7
 
 //    *
 //   * *
 //  *   *
 // *******
+
+let n = 7;
+let space = " ";
+let asterisk = "*";
+
+if (n % 2 === 1) {
+  for (let i = 1; i <= n; i += 1) {
+    if (i % 2 === 1) {
+      let jumpLine = (n - i) / 2;
+      if (i === 1) {
+        console.log(space.repeat(jumpLine) + asterisk)
+      } else if (i < n && i !== 1) {
+        console.log(space.repeat(jumpLine) + asterisk + space.repeat(i - 2) + asterisk);
+      } else {
+        console.log(asterisk.repeat(n));
+      }
+    }
+  }
+} else {
+  console.log("Ops, número inválido.")
+}
+
 // 6- Faça um programa que diz se um número definido numa variável é primo ou não.
-// Um número primo é um número que só é divisível por 1 e por ele mesmo, ou seja, a divisão dele com quaisquer outros números dá resto diferente de zero.
-// Dica: você vai precisar de fazer um loop que vá de 0 ao número definido; Além disso, vai precisar de fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.
+
+// ◉ Um número primo é um número que só é divisível por 1 e por ele mesmo, ou seja, a divisão dele com quaisquer outros números dá resto diferente de zero.
+
+// ◉ Dica: você vai precisar de fazer um loop que vá de 0 ao número definido; Além disso, vai precisar de fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.
+
+let n = 5;
+let primeNumber = [];
+
+for (let i = 0; i <= n; i += 1) {
+  if (n % i === 0) {
+    primeNumber.push(i);
+  }
+}
+
+if (primeNumber.length === 2) {
+  console.log(n, "é um número primo.");
+} else {
+  console.log(n, "não é um número primo.");
+}
 
 //-----------------------------------------------------------------------------------------------------------------------------------------//

@@ -68,7 +68,7 @@ for (let i = 1; i <= n; i += 1) {
 //  ***
 // *****
 
-let n = 5;
+let n = 11;
 let space = " ";
 let asterisk = "*";
 
@@ -121,7 +121,7 @@ if (n % 2 === 1) {
   console.log("Ops, número inválido.")
 }
 
-// 6- Faça um programa que diz se um número definido numa variável é primo ou não.
+// 2) Faça um programa que diz se um número definido numa variável é primo ou não.
 
 // ◉ Um número primo é um número que só é divisível por 1 e por ele mesmo, ou seja, a divisão dele com quaisquer outros números dá resto diferente de zero.
 

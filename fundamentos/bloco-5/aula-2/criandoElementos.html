@@ -1,0 +1,51 @@
+<!------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!-- Utilize a estrutura abaixo para realizar os exercícios: -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+
+      Atenção!
+
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+
+    <script>
+      // 1) Crie um irmão para elementoOndeVoceEsta.
+      console.log(document.querySelector('#pai').appendChild(document.createElement('h1')));
+
+      // 2) Crie um filho para elementoOndeVoceEsta.
+      console.log(document.querySelector('#elementoOndeVoceEsta').appendChild(document.createElement('h2')));
+
+      // 3) Crie um filho para primeiroFilhoDoFilho.
+      let son = document.querySelector('#primeiroFilhoDoFilho').appendChild(document.createElement('h3'))
+      console.log(son);
+
+      // 4) A partir desse filho criado, acesse terceiroFilho.
+      console.log(son.parentElement.parentElement.nextElementSibling);
+    </script>
+  </main>
+</body>
+
+</html>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------>

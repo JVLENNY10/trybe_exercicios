@@ -22,3 +22,16 @@ Além disso, aprenderá mais uma forma de buscar os elementos da página.
 
 - Adicionar e remover elementos HTML da página via JavaScript ;
 - Buscar os elementos da página com a propriedade parentNode .
+
+## Aula 03: JavaScript - Eventos
+
+### O que vamos aprender?
+
+Você já aprendeu diversas formas de utilizar o JavaScript para manipular os elementos HTML e até alterar os estilos da página, certo?
+
+Agora você vai aprender como utilizar os eventos do JavaScript para fazer com que funções sejam executadas quando alguém as usam ou quando o navegador fizer alguma interação com a sua página web.
+
+### Você será capaz de:
+
+- Mudar o conteúdo, estilo e outros atributos de elementos HTML a partir de eventos do JavaScript ;
+- Aplicar no seu código JavaScript eventos de click e change , entre outros.

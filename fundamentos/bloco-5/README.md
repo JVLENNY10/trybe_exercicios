@@ -10,7 +10,7 @@ Hoje, você vai aprender sobre o famoso DOM , a estrutura que faz a ponte entre 
 
 - Acessar dados do HTML com o JavaScript através dos seletores do DOM.
 
-## Aula 02 : JavaScript - Trabalhando com elementos
+## Aula 02: JavaScript - Trabalhando com elementos
 
 ### O que vamos aprender?
 

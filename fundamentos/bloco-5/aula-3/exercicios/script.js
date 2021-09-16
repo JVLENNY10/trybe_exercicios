@@ -205,8 +205,29 @@ document.addEventListener('click', selectedDay);
 // ◉ Ao pressionar a tecla "enter" o evento também deverá ser disparado.
 // ◉ Dica - Propriedade: keyCode .
 
-// function addCommitment() {
-//   const input = document.querySelector('input');
+function addUl() {
+  const ul = document.createElement('ul');
+  document.querySelector('.input-container').appendChild(ul).id = 'my-commitments';
+  ul.style.width = '30px';
+  ul.style.margin = '20px 37%';
+}
 
+addUl();
 
-// }
+function addCommitment(select) {
+  const buttonAdd = document.querySelector('#btn-add');
+  const taskInput = document.querySelector('#task-input');
+  const myCommitments = document.querySelector('#my-commitments');
+
+  if (select.target === buttonAdd && taskInput.value !== '' || select.keyCode === 13 && taskInput.value !== '') {
+    const li = document.createElement('li');
+    myCommitments.appendChild(li).innerHTML = taskInput.value;
+    li.style.textAlign = 'center';
+    taskInput.value = '';
+  } else if (select.target === buttonAdd && taskInput.value === '' || select.keyCode === 13 && taskInput.value === '') {
+    alert('Erro! Valor inválido!')
+  }
+}
+
+document.addEventListener('click', addCommitment);
+document.addEventListener('keypress', addCommitment);

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Currículo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <fieldset id="dados-pessoais">
+      <input name="nome" type="text" max="40" required>
+
+      <input name="email" type="text" max="50" required>
+
+      <input name="cpf" type="text" max="11" required>
+
+      <input name="endereco" type="text" max="200" required>
+
+      <input name="cidade" type="text" max="28" required>
+
+      <select name="estados" required></select>
+
+      <input name="radio-button" id="casa" type="radio">Casa
+      <input name="radio-button" id="apartamento" type="radio">Apartamento
+    </fieldset>
+
+    <fieldset id="ultimo-emprego">
+      <textarea name="resumo-do-curriculo" max="1000" required></textarea>
+
+      <input name="cargo" type="text" max="40" required>
+
+      <input name="descricao-do-cargo" type="text" max="500" required>
+
+      <input name="data-de-inicio" id="date" type="text" required>
+    </fieldset>
+  </form>
+
+  <button></button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

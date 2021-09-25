@@ -1,0 +1,28 @@
+form {
+  width: 500px;
+  padding: 20px;
+  margin: 100px auto 40px auto;
+  background-color: gray;
+  border-radius:50px;
+  border: 10px solid black;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+#state , #resume-summary {
+  width: 255px;
+}
+
+#apartment {
+  margin-left: 20px;
+}
+
+#clear{
+  margin-left: 50px;
+}
+
+#dados-pessoais , #ultimo-emprego , #buttons {
+  text-align: center;
+}

@@ -10,62 +10,68 @@
 </head>
 
 <body>
-  <form>
-    <fieldset id="dados-pessoais">
-      <div class="form-group">
-        <input class="form-control" name="nome" id="name" type="text" max="40" required>
-      </div>
+  <main>
+    <form>
+      <fieldset id="dados-pessoais">
+        <h2>Formulário</h2>
 
-      <div class="form-group">
-        <input class="form-control" name="email" id="email" type="text" max="50" required>
-      </div>
+        <div class="form-group">
+          <input name="nome" id="name" type="text" max="40" required>
+        </div>
 
-      <div class="form-group">
-        <input class="form-control" name="cpf" id="cpf" type="text" max="11" required>
-      </div>
+        <div class="form-group">
+          <input name="email" id="email" type="text" max="50" required>
+        </div>
 
-      <div class="form-group">
-        <input class="form-control" name="endereco" id="address" type="text" max="200" required>
-      </div>
+        <div class="form-group">
+          <input name="cpf" id="cpf" type="text" max="11" required>
+        </div>
 
-      <div class="form-group">
-        <input class="form-control" name="cidade" id="city" type="text" max="28" required>
-      </div>
+        <div class="form-group">
+          <input name="endereco" id="address" type="text" max="200" required>
+        </div>
 
-      <div class="form-group">
-        <select class="form-control" name="estado" id="state" required></select>
-      </div>
+        <div class="form-group">
+          <input name="cidade" id="city" type="text" max="28" required>
+        </div>
 
-      <div class="form-group">
-        <input class="form-control" name="radio-button" id="type" type="radio" value="casa">Casa
-        <input class="form-control" name="radio-button" id="type" type="radio" value="apartamento">Apartamento
-      </div>
-    </fieldset>
+        <div class="form-group">
+          <select name="estado" id="state" required></select>
+        </div>
 
-    <fieldset id="ultimo-emprego">
-      <div class="form-group">
-        <textarea class="form-control" name="resumo-do-curriculo" id="resume-summary" max="1000" required></textarea>
-      </div>
+        <div class="form-group">
+          <input name="radio-button" id="house" type="radio" value="casa"> Casa
+          <input name="radio-button" id="apartment" type="radio" value="apartamento"> Apartamento
+        </div>
+      </fieldset>
 
-      <div class="form-group">
-        <input class="form-control" name="cargo" id="office" type="text" max="40" required>
-      </div>
+      <fieldset id="ultimo-emprego">
+        <div class="form-group">
+          <textarea name="resumo-do-curriculo" id="resume-summary" max="1000" required></textarea>
+        </div>
 
-      <div class="form-group">
-        <input class="form-control" name="descricao-do-cargo" id="job-description" type="text" max="500" required>
-      </div>
+        <div class="form-group">
+          <input name="cargo" id="office" type="text" max="40" required>
+        </div>
 
-      <div class="form-group">
-        <input class="form-control DatePickerX" name="data-de-inicio" id="date" type="text" required>
-      </div>
-    </fieldset>
-  </form>
+        <div class="form-group">
+          <input name="descricao-do-cargo" id="job-description" type="text" max="500" required>
+        </div>
 
-  <button class="btn btn-success" id="prevent-validations">Enviar</button>
-  <button class="btn btn-success" id="clear">Clear</button>
+        <div class="form-group">
+          <input name="data-de-inicio" id="date" type="text" required>
+        </div>
+      </fieldset>
+    </form>
 
-  <script src="script.js"></script>
-  <script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+    <div id="buttons">
+      <button class="btn btn-success" id="prevent-validations">Enviar</button>
+      <button class="btn btn-success" id="clear">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="DatePickerX-master/dist/js/DatePickerX.min.js"></script>
+  </main>
 </body>
 
 </html>

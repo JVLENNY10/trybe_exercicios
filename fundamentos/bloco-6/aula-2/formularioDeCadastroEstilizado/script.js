@@ -134,34 +134,34 @@ function checkJobDescription() {
   }
 }
 
-// function checkDate() {
-//   if (date.value.length === 10) {
-//     let year = '';
-//     for (let index = 0; index < date.value.length; index += 1) {
-//       if (index === 0 && date.value[index] <= 0 && date.value[index] > 31 || index === 1 && date.value[index] <= 0 && date.value[index] > 31
-//         || index === 2 && date.value[index] !== '/' || index === 5 && date.value[index] !== '/' || index === 3 && date.value[index] <= 0 &&
-//         date.value[index] > 12 || index === 4 && date.value[index] <= 0 && date.value[index] > 12 || index === 6 && date.value[index] < 0 ||
-//         index === 7 && date.value[index] < 0 || index === 8 && date.value[index] < 0 || index === 9 && date.value[index] < 0) {
-//         // alert('Valor de Data inválido. Verifique se contém as barras.');
-//         const p = document.createElement('p');
-//         p.innerHTML = 'Valor de Data inválido. Verifique se contém as barras.';
-//         divInformationsError.appendChild(p);
-//         break;
-//       } else {
-//         year += date.value[index];
-//       }
-//     }
+function checkDate() {
+  if (date.value.length === 10) {
+    let year = '';
+    for (let index = 0; index < date.value.length; index += 1) {
+      if (index === 0 && date.value[index] <= 0 && date.value[index] > 31 || index === 1 && date.value[index] <= 0 && date.value[index] > 31
+        || index === 2 && date.value[index] !== '/' || index === 5 && date.value[index] !== '/' || index === 3 && date.value[index] <= 0 &&
+        date.value[index] > 12 || index === 4 && date.value[index] <= 0 && date.value[index] > 12 || index === 6 && date.value[index] < 0 ||
+        index === 7 && date.value[index] < 0 || index === 8 && date.value[index] < 0 || index === 9 && date.value[index] < 0) {
+        // alert('Valor de Data inválido. Verifique se contém as barras.');
+        const p = document.createElement('p');
+        p.innerHTML = 'Valor de Data inválido. Verifique se contém as barras.';
+        divInformationsError.appendChild(p);
+        break;
+      } else {
+        year += date.value[index];
+      }
+    }
 
-//     if (year.length === 10) {
-//       informations.push(year);
-//     }
-//   } else {
-//     // alert('Valor de Data inválido!');
-//     const p = document.createElement('p');
-//     p.innerHTML = 'Valor de Data inválido. Verifique se contém as barras.';
-//     divInformationsError.appendChild(p);
-//   }
-// }
+    if (year.length === 10) {
+      informations.push(year);
+    }
+  } else {
+    // alert('Valor de Data inválido!');
+    const p = document.createElement('p');
+    p.innerHTML = 'Valor de Data inválido. Verifique se contém as barras.';
+    divInformationsError.appendChild(p);
+  }
+}
 
 function checkAll() {
   if (informations.length === 11) {
@@ -193,7 +193,7 @@ buttonPreventValidations.addEventListener('click', (event) => {
   checkResumeSummary();
   checkOffice();
   checkJobDescription();
-  // checkDate();
+  checkDate();
   checkAll();
 
   informations = [];
@@ -202,7 +202,7 @@ buttonPreventValidations.addEventListener('click', (event) => {
 buttonClear.addEventListener('click', (() => {
   inputCpf.value = '';
   inputCity.value = '';
-  // inputDate.value = '';
+  inputDate.value = '';
   inputName.value = '';
   inputType.value = '';
   inputEmail.value = '';

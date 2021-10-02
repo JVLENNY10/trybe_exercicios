@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 3 - Bloco 07, Aula 01</title>
+</head>
+
+<body>
+  <button>Clique aqui para armazenar clicks</button>
+  <p>Contagem de clicks: 0</p>
+
+  <script>
+    const p = document.querySelector('p');
+    const body = document.querySelector('body');
+    const button = document.querySelector('button');
+
+    let clickCount = 0;
+    button.addEventListener('click', () => {
+      clickCount += 1;
+      p.innerHTML = `Contagem de clicks: ${clickCount}`;
+    })
+  </script>
+</body>
+
+</html>

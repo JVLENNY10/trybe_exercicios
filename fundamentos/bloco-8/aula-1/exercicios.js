@@ -21,12 +21,11 @@ console.log(newEmployees(informations));
 // 2) Desenvolva uma HOF que retorna o resultado de um sorteio. Esta HOF irá gerar um número aleatório entre 1 e 5 recebendo como parâmetros o número apostado e uma função que checa se o número apostado é igual ao número sorteado. O retorno da sua HOF deve ser uma string (Ex: "Tente novamente" ou "Parabéns você ganhou").
 
 const checkNumber = (number, sortNumber) => {
-  console.log(sortNumber);
   return number === sortNumber ? true : false;
 };
 
 const generateRandomNumber = (number, func) => {
-  return func(number, Math.round(Math.random() * 4 + 1)) ? 'Parabéns você ganhou' : 'Tente novamente';
+  return func(number, Math.ceil(Math.random() * 5)) ? 'Parabéns você ganhou' : 'Tente novamente';
 };
 
 console.log(generateRandomNumber(5, checkNumber));

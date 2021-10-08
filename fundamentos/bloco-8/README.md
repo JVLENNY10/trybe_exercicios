@@ -40,3 +40,21 @@ Arrays são um dos tipos de dados mais importantes em qualquer linguagem, e com 
 Em suas últimas versões, JavaScript vem adicionando funções que facilitam muito a criação e manipulação de arrays. Essas funções são extremamente poderosas e ajudam a escrever código que é mais legível, expressivo, conciso, menos propenso a conter erros e, comumente, mais eficiente.
 
 Esse tipo de função não é exclusiva de JavaScript ; elas também existem em outras linguagens modernas. Então você precisa se acostumar com elas, pois as verá com frequência no seu dia a dia. Depois de um pouco de prática, você não conseguirá viver sem elas!
+
+## Aula 03: JavaScript ES6 - Higher Order Functions - map e filter
+
+### O que vamos aprender?
+
+Hoje você vai aprender sobre outras duas Higher Order Functions : Array.map e o Array.filter
+
+A função map é, talvez, uma das mais poderosas (e complexas!) funções para manipulação e criação de arrays. Em conjunto, essas HOFs deixarão seu código mais legível, conciso e expressivo.
+
+### Você será capaz de:
+
+- Utilizar a função Array.map para manipular e construir arrays;
+- Utilizar a função Array.filter para filtrar um array;
+- Aprender a usar de forma conjunta as Higher Order Functions .
+
+### Por que isso é importante?
+
+Como já viu na primeira parte, as HOFs ajudam bastante a reduzir o código e deixá-lo mais compreensível. As HOFs de hoje são um pouco mais complicadas, mas você usará elas bastante no seu código daqui pra frente e logo estará tirando-as de letra!

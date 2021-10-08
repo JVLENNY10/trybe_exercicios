@@ -1,4 +1,4 @@
-//--------------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------//
 
 const books = [
   {
@@ -63,17 +63,17 @@ const books = [
   },
 ];
 
-// 7) Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+// 7) Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
-// Resultado esperado:
-const expectedResult = false;
+// ◉ Dica: cada inicial termina com um ponto.
 
-const authorUnique = () => {
-  return books.every((book) => books.some((bookSome) =>
-    (bookSome.author.birthYear === book.author.birthYear) &&
-    (bookSome.author.name !== book.author.name)));
-};
+// Resultado Esperado:
+const expectedResult = 'O Senhor dos Anéis';
 
-console.log(authorUnique());
+function authorWith3DotsOnName() {
+  return books.find((book) => (book.author.name.split(' ').filter((word) => word.endsWith('.')).length === 3)).name;
+}
 
-//--------------------------------------------------------------------------------------------------------------------------------------//
+console.log(authorWith3DotsOnName());
+
+//-----------------------------------------------------------------------------------------------------------------------------------//

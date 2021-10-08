@@ -1,4 +1,4 @@
-//--------------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------//
 
 const books = [
   {
@@ -63,17 +63,21 @@ const books = [
   },
 ];
 
-// 7) Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+// 5) Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
-// Resultado esperado:
-const expectedResult = false;
+// Resultado Esperado:
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
 
-const authorUnique = () => {
-  return books.every((book) => books.some((bookSome) =>
-    (bookSome.author.birthYear === book.author.birthYear) &&
-    (bookSome.author.name !== book.author.name)));
-};
+function fantasyOrScienceFictionAuthors() {
+  return books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia')
+  .map((book) => book.author.name).sort();
+}
 
-console.log(authorUnique());
+console.log(fantasyOrScienceFictionAuthors());
 
-//--------------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------//

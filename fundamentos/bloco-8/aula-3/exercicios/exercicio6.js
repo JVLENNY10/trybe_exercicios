@@ -1,4 +1,4 @@
-//--------------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------//
 
 const books = [
   {
@@ -63,17 +63,19 @@ const books = [
   },
 ];
 
-// 7) Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+// 6) Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
-// Resultado esperado:
-const expectedResult = false;
+// Resultado Esperado:
+const expectedResult = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
+];
 
-const authorUnique = () => {
-  return books.every((book) => books.some((bookSome) =>
-    (bookSome.author.birthYear === book.author.birthYear) &&
-    (bookSome.author.name !== book.author.name)));
-};
+function oldBooks() {
+  return books.filter((book) => 2021 - book.releaseYear > 60).map((book) => book.name);
+}
 
-console.log(authorUnique());
+console.log(oldBooks());
 
-//--------------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------//

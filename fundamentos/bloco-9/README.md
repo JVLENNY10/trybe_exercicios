@@ -40,3 +40,21 @@ Com assincronicidade, a operação A começa a executar e, logo em seguida, B ta
 Essa forma de trabalho é natural, e você faz isso o tempo todo sem perceber! Um exemplo clássico: são 20h de uma segunda-feira, você está em casa com fome e decide pedir uma pizza. 🍕 Você fica esperando, sem fazer nada, enquanto a pizza não chega? Você pode fazer o que quiser nesse meio tempo, como escutar música ou ver vídeos no YouTube , por exemplo. E assim que a pizza chegar, você dedica seu tempo para poder jantar.
 
 Nesse exemplo da pizza, o ato de pedir a pizza corresponde a uma operação assíncrona, e os atos de escutar música e ver vídeos no YouTube são exemplos de operações que independem de pedir a pizza.
+
+## Aula 02: JavaScript Assíncrono - Fetch API e async/await
+
+### O que vamos aprender?
+
+Callbacks são utilizadas em toda parte no JavaScript . A depender da complexidade do que você quer fazer, no entanto, as callbacks podem, muito rápido, ficar confusas e pouco legíveis. Para tornar o código mais compreensível, você estudará na aula de hoje JavaScript assíncrono . E, com esse assincronismo , você fará uma pequena página web que colhe dados de um serviço de terceiro utilizando a API dele.
+
+### Você será capaz de:
+
+- Utilizar then() e catch() ;
+- Utilizar async await ;
+- Fazer integrações com APIs de terceiros.
+
+### Por que isso é importante?
+
+A comunicação com serviços de terceiros é parte do dia a dia de qualquer pessoa que programa. Seja para coletar tweets , seja para abrir um mapa do Google Maps , ou até mesmo se comunicar com um banco de dados ou serviço interno da organização, APIs são sempre a forma de se fazer isso. Entender o que são e como usá-las, ou seja, como fazer sua aplicação se comunicar com elas, é absolutamente fundamental. Hoje você entrará em contato com esse conceito e o praticará por todo o restante do curso.
+
+Tenham em mente que assincronismo não é um conceito trivial ! Você terá muito tempo ao longo do curso para entender esse conceito, então se esforce para fazer o melhor agora, leia tudo, faça os exercícios e saiba que haverá tempo para absorver essa lógica com calma.

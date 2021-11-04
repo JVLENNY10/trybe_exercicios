@@ -24,13 +24,13 @@ Os principais pontos abordados serão:
 - O que é o terminal?
 - Comandos executados no Shell.
 
-## Você será capaz de:
+### Você será capaz de:
 
 - Executar comandos no terminal para navegar entre diretórios;
 - Executar comandos no terminal para criar e manipular arquivos e diretórios;
 - Executar comandos no terminal para realizar buscas;
 
-## Por que isso é importante?
+### Por que isso é importante?
 
 No desenvolvimento de software, é muito importante que você entenda como interagir de forma eficiente com o sistema operacional no qual você vai programar. Isso te poupará tempo e permitirá ser uma pessoa mais produtiva. Para isso, é primordial que você saiba os principais comandos que podem ser utilizados no terminal.
 

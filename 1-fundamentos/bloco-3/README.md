@@ -36,3 +36,38 @@ Para trabalhar com desenvolvimento web, não é estritamente necessário aprende
 O HTML e o CSS são duas das pedras fundamentais no desenvolvimento web. São duas linguagens muito poderosas, que te permitem criar páginas web do zero e são utilizadas como base para inúmeras outras tecnologias de desenvolvimento web, como vamos aprender ao longo do curso.
 
 Você pode pensar no HTML como se fosse o esqueleto da sua página. É através do HTML que você irá criar a estrutura de como a página vai ser exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos como links , imagens, vídeos etc.
+
+## Aula 02: HTML & CSS - Primeiros passos em CSS
+
+### O que vamos aprender?
+
+Na segunda parte da sua jornada através do HTML & CSS , você vai aprender na prática como utilizar CSS para deixar suas páginas no estilo 😎
+
+### Você será capaz de:
+
+- Criar regras de estilo para tags HTML utilizando o CSS;
+- Utilizar os seletores de tag , id e class para aplicar regras de CSS;
+- Alterar características da fonte e das cores de páginas web;
+- Utilizar CSS inline e externo .
+
+### Por que isso é importante?
+
+Praticamente todas as páginas da internet utilizam algum estilo criado com CSS, seja ele personalizado ou através de algum framework . Por isso, é muito importante entender como o CSS funciona. 😉
+
+## Aula 03: HTML & CSS - Seletores e posicionamento
+
+### O que vamos aprender?
+
+Na terceira parte da sua jornada através do HTML & CSS , você vai aprender na prática como alterar o layout da página utilizando o CSS , assim como utilizar regras de seleção bem definidas para escolher exatamente o tipo de elemento que você quer estilizar.
+
+### Você será capaz de:
+
+- Compreender como funciona o Box Model do CSS e como os elementos da página se relacionam visualmente;
+- Posicionar elementos na página de diferentes formas;
+- Combinar e agrupar seletores de CSS para criar regras bem definidas.
+
+### Por que isso é importante?
+
+Além de estilos e tamanhos, o CSS também é responsável pelo layout da página. Saber criar regras específicas que selecionam os elementos de maneira apropriada e posicioná-los na página permite que você organize as informações da página como quiser.
+
+Seletores de pseudoclasses permitem que você adicione lógica condicional de estilização.

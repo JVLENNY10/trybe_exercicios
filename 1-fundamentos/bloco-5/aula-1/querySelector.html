@@ -1,0 +1,53 @@
+<!------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!-- // Parte II - Seletores de elementos -->
+
+<!-- getElementById -->
+
+<!-- Utilize o código abaixo para resolver as questões: -->
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+  <header>
+    <!-- 1) Adicione uma classe igual para os dois parágrafos. -->
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class='paragraph'>Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class='paragraph'>Segundo parágrafo!</p>
+  </header>
+
+  <script>
+    const paragraph = document.getElementById("paragraph");
+    paragraph.style.color = "red";
+
+    // 2) Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito.
+    const pageTitle = document.querySelector('#page-title');
+    pageTitle.innerHTML = 'Todos os filmes do Homem Aranha';
+
+    // 3) Recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+    const secondParagraph = document.querySelector('#second-paragraph');
+    secondParagraph.innerHTML = '"Homem Aranha: Longe" de Casa vem ai!'
+    secondParagraph.style.fontSize = '25px';
+
+    // 4) Recupere o subtítulo e altere-o também.
+    const subtitle = document.querySelector('#subtitle');
+    subtitle.innerHTML = 'Filmes do Homem Aranha que estão por vir:'
+    subtitle.style.fontSize = '25px';
+
+    // 5) Recupere os seus parágrafos via código JavaScript.
+    let paragraph1 = document.querySelector('.paragraph');
+
+    // 6) Altere algum estilo do primeiro deles.
+    paragraph1.style.color = 'blue';
+
+    // 7) Recupere o subtítulo e altere a cor dele.
+    subtitle.style.color = 'red';
+  </script>
+</body>
+
+</html>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------>

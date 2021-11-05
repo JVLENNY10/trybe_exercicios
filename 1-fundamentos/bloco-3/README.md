@@ -37,3 +37,60 @@ Para trabalhar com desenvolvimento web, não é __estritamente necessário__ apr
 O HTML e o CSS são duas das pedras fundamentais no desenvolvimento web. São duas linguagens muito poderosas, que te permitem criar páginas web do zero e são utilizadas como base para inúmeras outras tecnologias de desenvolvimento web, como vamos aprender ao longo do curso.
 
 Você pode pensar no HTML como se fosse o __esqueleto__ da sua página. É através do __HTML__ que você irá criar a estrutura de como a página vai ser exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos como links , imagens, vídeos etc.
+
+## Aula 02: HTML & CSS - Primeiros passos em CSS
+
+### O que vamos aprender?
+
+Na segunda parte da sua jornada através do HTML & CSS , você vai aprender na prática como utilizar CSS para deixar suas páginas no estilo 😎
+
+### Você será capaz de:
+
+- Criar regras de estilo para tags HTML utilizando o CSS;
+- Utilizar os seletores de tag , id e class para aplicar regras de CSS;
+- Alterar características da fonte e das cores de páginas web;
+- Utilizar CSS inline e externo .
+
+### Por que isso é importante?
+
+Praticamente todas as páginas da internet utilizam algum estilo criado com CSS, seja ele personalizado ou através de algum framework . Por isso, é muito importante entender como o CSS funciona. 😉
+
+## Aula 03: HTML & CSS - Seletores e posicionamento
+
+### O que vamos aprender?
+
+Na terceira parte da sua jornada através do __HTML & CSS__ , você vai aprender na prática como alterar o layout da página utilizando o CSS , assim como utilizar regras de seleção bem definidas para escolher exatamente o tipo de elemento que você quer estilizar.
+
+### Você será capaz de:
+
+- Compreender como funciona o Box Model do CSS e como os elementos da página se relacionam visualmente;
+- Posicionar elementos na página de diferentes formas;
+- Combinar e agrupar seletores de CSS para criar regras bem definidas.
+
+### Por que isso é importante?
+
+Além de estilos e tamanhos, o CSS também é responsável pelo layout da página. Saber criar regras específicas que selecionam os elementos de maneira apropriada e posicioná-los na página permite que você organize as informações da página como quiser.
+
+Seletores de pseudoclasses permitem que você adicione lógica condicional de estilização.
+
+## Aula 04: 
+
+### O que vamos aprender?
+
+Chegou a hora de entrar mais fundo na Matrix. 😎
+
+Desde que você começou a fazer uso de elementos **_HTML_** , já parou para pensar sobre o __significado__ de um elemento? Suponha que você, ao digitar a URL de um site, visualize somente o **_DOM_** construído, e não a renderização da página pelo browser. Se você se deparasse no **_DOM_** com um elemento possuindo a tag p , o que você poderia inferir sobre seu conteúdo? Você pode deduzir que o conteúdo é textual e possui uma quebra de linha depois do fim do texto, por exemplo. Tudo isso você conseguiu deduzir olhando somente para a tag p do elemento, chegando assim à conclusão de que o elemento representa um **_parágrafo_** .
+
+Essa representação, esse sentido que um elemento **_HTML_** carrega acerca de seu conteúdo se chama __HTML Semântico__ , e é isto que você estudará na aula de hoje.
+
+### Você será capaz de:
+
+- Fazer uso de elementos **_HTML_** de acordo com o __sentido__ e o propósito que eles carregam. Tais elementos incluem, mas não se limitam a: header , nav , aside , article , section , footer e img ;
+
+- Criar páginas semanticamente válidas e acessíveis;
+
+- Entender a diferença entre elementos de bloco e elementos inline .
+
+### Por que isso é importante?
+
+Saber aplicar elementos HTML de acordo com o sentido e o propósito que cada um deles carrega, além de reforçar a sua capacidade para modelagem de um problema, resulta em páginas [melhor ranqueadas](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) em motores de busca (e.g. Google) e [mais acessíveis.](https://www.w3schools.com/html/html_accessibility.asp)

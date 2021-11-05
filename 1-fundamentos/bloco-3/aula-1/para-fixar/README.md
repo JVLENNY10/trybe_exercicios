@@ -2,6 +2,8 @@
 
 ## Para Fixar I
 
+### HTML - Primeiras tags
+
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -23,6 +25,8 @@
 
 ## Para Fixar II
 
+### HTML - Links externos e internos
+
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -37,7 +41,9 @@
 ```
 
 1. Crie um parágrafo para cada pessoa da sua lista.
+
 2. Crie um link entre a sua lista e os parágrafos de pessoas.
+
 3. Crie um link para a página do Google.
 
 Não se esqueça de dar um PUSH no seu repositório para sincronizá-lo com o GitHub

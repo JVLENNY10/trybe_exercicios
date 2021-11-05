@@ -73,7 +73,7 @@ Além de estilos e tamanhos, o CSS também é responsável pelo layout da págin
 
 Seletores de pseudoclasses permitem que você adicione lógica condicional de estilização.
 
-## Aula 04: 
+## Aula 04: HTML Semântico
 
 ### O que vamos aprender?
 

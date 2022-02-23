@@ -1,0 +1,18 @@
+1) Clicar com botão direito na tabela e clicar em "select rows - limit 200" O limite vai depender da configuração do workbench .
+
+2) Clicar com botão e clicar em "Create Table".
+
+3) Basta usar o GUI do Mysql Workbench para fazer isso.
+
+4) Faz referência a tabela country.
+
+5) N:1, ou seja, 1 para muitos.
+
+6) 1:N, ou seja, muitos para 1.
+
+7) city <-> country e film <-> language:
+
+city -> country (N:1)
+film -> language (N:1)
+country -> city (1:N)
+language > film (1:N)

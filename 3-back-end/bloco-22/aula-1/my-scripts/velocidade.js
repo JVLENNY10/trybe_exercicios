@@ -8,5 +8,8 @@ const readline = require('readline-sync');
 // - Utilize o readline-sync para solicitar os dados à pessoa.
 // - Considere a distância em metros e o tempo em segundos. Repare que, agora, estamos trabalhando com números inteiros.
 
-const calcVM = (distance, time) => distance/time;
-console.log(`A VM é: ${calcVM(100, 30)}`);
+const distance = readline.questionInt('Qual a distância(m)? ');
+const time = readline.questionInt('Qual o tempo(s)? ')
+
+const calcVM = (distance, time) => (distance/time).toFixed(1);
+console.log(`A VM é: ${calcVM(distance, time)}`);

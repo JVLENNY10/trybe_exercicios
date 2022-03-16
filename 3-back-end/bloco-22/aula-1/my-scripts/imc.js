@@ -3,11 +3,8 @@ const readline = require('readline-sync');
 // 1) Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
 
 // - A fórmula para calcular o IMC é peso/altura^2. Obs: Lembre-se que a altura é em metros, caso deseje usar em centímetros a conversão para metros será necessária.
-
 // - Comece criando um novo pacote node com npm init e respondendo às perguntas do npm.
-
 // - Por enquanto, não se preocupe em pedir input da pessoa usuária. Utilize valores fixos para peso e altura.
-
 // - Armazene o script no arquivo imc.js.
 
 const calcIMC = (weight, height) => (weight / Math.pow(height, 2)).toFixed(1);
@@ -17,12 +14,11 @@ console.log(calcIMC(89.9, 1.75));
 
 // - O novo script criado deve conter o comando que chama o node para executar o arquivo imc.js.
 
-// - Exercício realizado na pasta package.json: "start": "node imc.js".
+// - Exercício realizado na pasta package.json: "imc": "node imc.js".
 
 // 3) Chegou a hora de tornar nosso script mais interativo! Vamos adicionar input de quem usa.
 
 // - Você já utilizou o pacote readline-sync para esse fim. Que tal utilizar o mesmo pacote?
-
 // - Substitua os valores fixos de peso e altura por dados informados pela pessoa ao responder as perguntas "Qual seu peso?" e "Qual sua altura?" no terminal.
 
 // const weight = readline.question('Qual seu peso? ');
@@ -31,11 +27,10 @@ console.log(calcIMC(89.9, 1.75));
 // 4) Agora temos um problema: peso não é um número inteiro! Isso quer dizer que precisamos mudar um pouco a forma como solicitamos o input desse dado.
 
 // - O pacote readline-sync possui uma função específica para tratar esses casos. Consulte a documentação do pacote e encontre o método adequado para realizar input de floats.
-
 // - Encontrou a função? Show! Agora utilize-a para solicitar o input de peso.
 
-const weight = readline.questionFloat('Qual seu peso? ');
-const height = readline.questionFloat('Qual sua altura? ');
+const weight = readline.questionFloat('Qual seu peso(kg)? ');
+const height = readline.questionFloat('Qual sua altura(m)? ');
 console.log(`O seu peso ideal é: ${calcIMC(weight, height)}`);
 
 // 5) Vamos sofisticar um pouco mais nosso script. Além de imprimir o IMC na tela, imprima também em qual categoria da tabela abaixo aquele IMC se enquadra:
